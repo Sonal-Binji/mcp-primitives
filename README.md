@@ -19,7 +19,7 @@ It demonstrates how tools, resources, and prompts can work together with an LLM 
 - **Prompts Server (`prompts.py`)**
   - Predefined prompt templates for support flows (greeting, issue analysis, follow-up, escalation briefs)
 
-- **Conversational Copilot (`conversational_copilot_improved.py`)**
+- **Conversational Copilot (`copilot.py`)**
   - Interactive CLI chatbot
   - Uses `langchain + langgraph` for ReAct agent
   - Remembers tickets, orders, and customers across conversation
