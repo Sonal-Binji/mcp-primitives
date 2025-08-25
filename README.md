@@ -52,7 +52,7 @@ python prompts.py
 ```
 ### 5. Start Copilot
 ```bash
-python conversational_copilot_improved.py
+python copilot.py
 ```
 ## 📂 Project Structure
 ```graphql
@@ -60,7 +60,7 @@ customer-support-copilot/
 │── tools.py                  # MCP Tools Server
 │── resources.py              # MCP Resources Server (SQLite policies)
 │── prompts.py                # MCP Prompts Server
-│── conversational_copilot_improved.py  # Main conversational agent
+│── copilot.py  # Main conversational agent
 │── policies.db               # Example SQLite database with policies
 │── requirements.txt          # Python dependencies
 │── README.md                 # Documentation
