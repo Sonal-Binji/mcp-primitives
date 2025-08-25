@@ -14,4 +14,13 @@ Uses LangChain Function Agents for structured responses
 Includes FAQ / policy retrieval example
 
 Easily extensible for custom use cases
-An AI-powered Customer Support Copilot built with LangChain, Groq LLMs, and MCP (Model Context Protocol).
+
+
+📂 Project Structure
+
+customer-support-copilot/
+│── copilot.py      # Main conversational loop
+│── tools.py        # Tool definitions (functions callable by the agent)
+│── resources.py    # MCP resource handling logic
+│── prompts.py      # System and agent prompt templates
+│── README.md       # Project documentation
