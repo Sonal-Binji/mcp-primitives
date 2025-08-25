@@ -19,7 +19,7 @@ Easily extensible for custom use cases
 📂 Project Structure
 
 customer-support-copilot/
-│── copilot.py      # Main conversational loop
+├─copilot.py      # Main conversational loop
 │── tools.py        # Tool definitions (functions callable by the agent)
 │── resources.py    # MCP resource handling logic
 │── prompts.py      # System and agent prompt templates
